@@ -1,0 +1,186 @@
+body{
+    text-align: center;
+}
+.container-fluid{
+    padding: 3% 12%;
+}
+
+h2,h3{
+    font-family: "Montserrat-Bold";
+}
+
+/* headings */
+.big-heading{
+    font-family: "Montserrat-Black";
+    font-size: 3.5rem;
+    line-height: 1.5;
+    color: #fff;
+}
+/**************** Navbar ************/
+
+.navbar {
+    margin-bottom: 3rem;
+    padding: 0;
+}
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.nav-item {
+    padding: 0 0 0 2rem;
+    font-size: 1.2rem;
+    font-family: "Montserrat-light", sans-serif;
+}
+
+/**************** Showcase ************/
+
+#title{
+    background-color: #ff4c68;
+    text-align: left;
+    min-height: 60vh;
+    overflow: hidden;
+}
+.row{
+    margin: 0;
+}
+h1 {
+    font-weight: bold;
+    margin-top: 110px;
+}
+.title-image-container{
+    position: relative;
+}
+.title-image {
+    width: 60%;
+    transform: rotate(25deg);
+    position: absolute;
+    left: 100px;
+    top: 50px;
+}
+#title .download-btn{
+    margin: 5% 3% 5% 0;
+}
+
+/**************** Features ************/
+
+.feature-box {
+    padding: 1rem;
+}
+.icon{
+    margin: 1rem;
+    color: #ef8172;
+}
+.icon:hover{
+    color: #ff4c68;
+}
+.feature-title{
+    font-size: 2rem;
+    line-height: 1.5;
+    color: #000;
+}
+.feature-text {
+    font-family: "Montserrat";
+    color: #8f8f8f;
+}
+
+/**************** testimonials ************/
+
+#testimonials{
+   background-color: #ef8172;
+   color: #fff;
+}
+.testimonial-text{
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+.testimonial-image{
+    width: 10%;
+    border-radius: 50%;
+    margin:20px;
+}
+.press-log{
+    width: 10%;
+    margin: 2rem 2rem 6rem;
+}
+
+/**************** Pricing ************/
+
+.pricing-heading{
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+.pricing-title {
+    font-size: 2rem;
+    line-height: 1.5;
+}
+.pricing-text{
+    color: #8f8f8f;
+}
+.pricing-column{
+    padding: 1.5rem;
+}
+div.card-header{
+    font-family: "Montserrat-Bold";
+    font-size: 2.2rem;
+    line-height: 1.5;
+}
+
+/**************** CTA ************/
+
+#CTA {
+    background-color: #ff4c68;
+}
+#CTA .big-heading{ 
+    margin-bottom: 2rem;    
+}
+#CTA .download-btn{
+    margin: 1rem;
+}
+
+/**************** Footer ************/
+
+#footer{
+    padding: 3rem;
+}
+.social-icon {
+    padding: 0.6rem;
+    margin-bottom: 1.5rem;
+}
+#footer p {
+    color: #8f8f8f;  
+}
+/**************** Media Query ************/
+
+@media(max-width:1040px){
+    h1 {
+        font-size: 3rem;
+        line-height: 1.5;
+        margin-top: 30px;
+    }
+    .nav-item{
+        text-align: left;
+        padding-left: 0;
+    }
+    #title{
+        text-align: center;
+        min-height: 50vh;
+    }
+    .title-image{
+        position: static;
+        transform: rotate(0);
+    }
+}
+@media(max-width:760px){
+    .testimonial-text{
+        font-size: 2rem;
+        padding-top: 2rem;
+    }
+    .pricing-heading{
+        font-size: 2.5rem;
+    }
+    #CTA .big-heading{ 
+        font-size: 2rem; 
+        padding-top: 2rem;   
+    }
+}
