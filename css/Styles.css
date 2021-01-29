@@ -88,7 +88,10 @@ h1 {
 
 #testimonials{
    background-color: #ef8172;
-   color: #fff;
+   color: #fff;   
+}
+#testimonial-carousel{
+    min-height: 56vh;
 }
 .testimonial-text{
     font-size: 3.5rem;
@@ -101,7 +104,7 @@ h1 {
 }
 .press-log{
     width: 10%;
-    margin: 2rem 2rem 6rem;
+    margin: 2rem ;
 }
 
 /**************** Pricing ************/
@@ -144,11 +147,15 @@ div.card-header{
     padding: 3rem;
 }
 .social-icon {
+    font-size: 1.4rem;
     padding: 0.6rem;
     margin-bottom: 1.5rem;
 }
+.social-icon:hover{
+    color: cyan;
+}
 #footer p {
-    color: #8f8f8f;  
+    color: #8088a4;  
 }
 /**************** Media Query ************/
 
@@ -172,9 +179,16 @@ div.card-header{
     }
 }
 @media(max-width:760px){
+    #testimonial-carousel{
+        min-height: 35vh;
+    }
     .testimonial-text{
-        font-size: 2rem;
+        font-size: 1.5rem;
         padding-top: 2rem;
+    }
+    .press-log{
+        width: 20%;
+        margin: 2rem ;
     }
     .pricing-heading{
         font-size: 2.5rem;
